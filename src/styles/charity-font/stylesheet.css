@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'ALBOROTO';
+    src: url('ALBOROTO.eot');
+    src: url('ALBOROTO.eot?#iefix') format('embedded-opentype'),
+        url('ALBOROTO.woff2') format('woff2'),
+        url('ALBOROTO.woff') format('woff'),
+        url('ALBOROTO.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Arkitextura';
+    src: url('Arkitextura.eot');
+    src: url('Arkitextura.eot?#iefix') format('embedded-opentype'),
+        url('Arkitextura.woff2') format('woff2'),
+        url('Arkitextura.woff') format('woff'),
+        url('Arkitextura.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+

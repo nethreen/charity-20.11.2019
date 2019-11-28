@@ -1,0 +1,55 @@
+// @import '~font-awesome/css/font-awesome.css';
+@import '~@fortawesome/fontawesome-free/css/all.css';
+@import "vendors/bootstrap";
+@import "molecules/sprite";
+@import "~owl.carousel/dist/assets/owl.carousel.css";
+@import "charity-font/stylesheet.css";
+@import "charity_style/homepage";
+@import "charity_style/header";
+
+// Sprite Icons
+body{
+  font-family: 'Arkitextura';
+}
+
+.button {
+  z-index: 7;
+  background-color: rgb(178, 57, 9);
+  cursor: pointer;
+  outline: none;
+  box-shadow: none;
+  visibility: visible;
+  text-align: left;
+  line-height: 72px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-size: 18px;
+  border-color: rgba(255, 255, 255, 0.25);
+  border-style: none;
+  margin: 0px;
+  border-radius: 36px;
+  padding: 0px 48px;
+  color: rgb(234, 210, 172);
+  text-decoration: none;
+  transition: .4s;
+
+  &:hover {
+      background: rgb(222, 71, 11);
+      color: #fff;
+  }
+}
+a:hover{
+  text-decoration: none;
+}
+
+.icon {
+  display: inline-block;
+
+  &-hello {
+    @include sprite($hello);
+  }
+
+  &-world {
+    @include sprite($world);
+  }
+}
